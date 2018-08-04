@@ -15,7 +15,7 @@ end
 def monopoly_with_second_tier
 	monopoly = {}
 	monopoly.merge!(:railroads => {})
-	monopoly.push(:pieces => 4)
+	monopoly.merge!(:pieces => 4)
 end
 
 def monopoly_with_third_tier
